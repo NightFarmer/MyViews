@@ -79,9 +79,9 @@ public class SwitchView extends View {
                 buttonX = 0;
             }
         }
-        if (buttonX<viewWidth / 2){
+        if (buttonX < viewWidth / 2 - buttonWidth / 2) {
             backGround = backGroundOff;
-        }else {
+        } else {
             backGround = backGroundOn;
         }
 
